@@ -10,15 +10,15 @@ on:
       MANIFEST_BRANCH:
         description: 'MANIFEST_BRANCH'
         required: true
-        default: '11.0'
+        default: '12.1'
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://github.com/DrBrown28/TWRP_11_NX659J.git'
+        default: 'https://github.com/johnt1989/android_device_nubia_nx659j.git'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
-        default: 'main'
+        default: 'android-11.0'
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
@@ -36,7 +36,7 @@ on:
       MAKEFILE_NAME:
         description: 'MAKEFILE_NAME'
         required: true
-        default: 'omni_NX659J'
+        default: 'twrp_NX659J'
       BUILD_TARGET:
         description: 'BUILD_TARGET'
         required: true
