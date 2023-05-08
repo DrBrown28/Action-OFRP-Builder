@@ -14,15 +14,15 @@ on:
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://github.com/DrBrown28/NX679S-DEVICE-TREE.git'
+        default: 'https://github.com/twrpdtgen/android_device_nubia_NX729J/tree/NX729J-user-13-TKQ1.221013.002-eng.nubia.20230205.024800-release-keys'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
-        default: 'Android-12'
+        default: 'NX729J-user-13-TKQ1.221013.002-eng.nubia.20230205.024800-release-keys'
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
-        default: 'device/nubia/NX679S'
+        default: 'device/nubia/NX729J'
       COMMON_TREE_URL:
         description: 'COMMON_TREE_URL (if no common tree, leave blank)'
         required: false
@@ -32,11 +32,11 @@ on:
       DEVICE_NAME:
         description: 'DEVICE_NAME'
         required: true
-        default: 'NX679S'
+        default: 'NX729J'
       MAKEFILE_NAME:
         description: 'MAKEFILE_NAME'
         required: true
-        default: 'omni_NX679S'
+        default: 'omni_NX729J'
       BUILD_TARGET:
         description: 'BUILD_TARGET'
         required: true
