@@ -10,19 +10,19 @@ on:
       MANIFEST_BRANCH:
         description: 'MANIFEST_BRANCH'
         required: true
-        default: '11.0'
+        default: '12.1'
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://dumps.tadiphone.dev/dumps/nubia/nx669j-un.git'
+        default: 'https://github.com/johnt1989/android_device_nubia_nx659j.git'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
-        default: 'qssi_NX669J-user-11-RKQ1.201105.002-nubia.20210825.104533-release-keys'
+        default: 'test'
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
-        default: 'device/nubia/NX669J-UN'
+        default: 'device/nubia/NX659J'
       COMMON_TREE_URL:
         description: 'COMMON_TREE_URL (if no common tree, leave blank)'
         required: false
@@ -32,15 +32,15 @@ on:
       DEVICE_NAME:
         description: 'DEVICE_NAME'
         required: true
-        default: 'NX669J-UN'
+        default: 'NX659J'
       MAKEFILE_NAME:
         description: 'MAKEFILE_NAME'
         required: true
-        default: 'omni_NX669J-UN'
+        default: 'twrp_NX659J'
       BUILD_TARGET:
         description: 'BUILD_TARGET'
         required: true
-        default: 'boot'
+        default: 'recovery'
 
 jobs:
   build:
