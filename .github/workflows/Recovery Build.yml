@@ -18,7 +18,7 @@ on:
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
-        default: 'OFRP_12.1'
+        default: 'Twrp_12.1_SM8350'
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
