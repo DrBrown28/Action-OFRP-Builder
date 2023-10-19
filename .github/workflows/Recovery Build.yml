@@ -14,15 +14,15 @@ on:
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://github.com/DrBrown28/TWRP_NX669J_12.1.git'
+        default: 'https://github.com/DrBrown28/Android_device_NX709S.git'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
-        default: 'Twrp_12.1_SM8350'
+        default: 'TWRP_12.1_NX709J'
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
-        default: 'device/nubia/NX669J'
+        default: 'device/nubia/NX709J'
       COMMON_TREE_URL:
         description: 'COMMON_TREE_URL (if no common tree, leave blank)'
         required: false
@@ -32,15 +32,15 @@ on:
       DEVICE_NAME:
         description: 'DEVICE_NAME'
         required: true
-        default: 'NX669J'
+        default: 'NX709J'
       MAKEFILE_NAME:
         description: 'MAKEFILE_NAME'
         required: true
-        default: 'twrp_NX669J'
+        default: 'twrp_NX709J'
       BUILD_TARGET:
         description: 'BUILD_TARGET'
         required: true
-        default: 'boot'
+        default: 'recovery'
 
 jobs:
   build:
