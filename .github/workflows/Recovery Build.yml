@@ -18,7 +18,7 @@ on:
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
-        default: 'Fox-12.1'
+        default: 'Metroid-12.1'
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
@@ -36,7 +36,7 @@ on:
       MAKEFILE_NAME:
         description: 'MAKEFILE_NAME'
         required: true
-        default: 'fox_Metroid'
+        default: 'twrp_Metroid'
       BUILD_TARGET:
         description: 'BUILD_TARGET'
         required: true
