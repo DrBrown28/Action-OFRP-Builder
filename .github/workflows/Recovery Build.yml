@@ -14,11 +14,11 @@ on:
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://gitlab.com/wisevessel/np3-devtree.git'
+        default: 'https://github.com/DrBrown28/TWRP-12.1-NP3.git'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
-        default: 'main'
+        default: 'Fox-12.1'
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
@@ -36,7 +36,7 @@ on:
       MAKEFILE_NAME:
         description: 'MAKEFILE_NAME'
         required: true
-        default: 'twrp_Metroid'
+        default: 'fox_Metroid'
       BUILD_TARGET:
         description: 'BUILD_TARGET'
         required: true
