@@ -26,9 +26,9 @@ on:
       COMMON_TREE_URL:
         description: 'COMMON_TREE_URL (if no common tree, leave blank)'
         required: false
-      COMMON_PATH:
+      COMMON_PATH: 'device/nothing/Metroid'
         description: 'COMMON_PATH (if no common tree, leave blank)'
-        required: false
+        required: true
       DEVICE_NAME:
         description: 'DEVICE_NAME'
         required: true
