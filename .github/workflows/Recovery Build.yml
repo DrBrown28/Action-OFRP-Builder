@@ -28,8 +28,8 @@ on:
         required: false
       COMMON_PATH:
         description: 'COMMON_PATH (if no common tree, leave blank)'
-        required: true
-      DEVICE_NAME: 'device/nothing/Metroid'
+        required: false
+      DEVICE_NAME:
         description: 'DEVICE_NAME'
         required: true
         default: 'Metroid'
